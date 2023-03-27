@@ -39,10 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.amberAccent),
             indicatorColor: Colors.amberAccent,
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
+              Tab(icon: Icon(Icons.shop)),
               Tab(icon: Icon(Icons.smoking_rooms)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.shopping_bag)),
+              Tab(icon: Icon(Icons.add_box)),
             ],
           ),
           centerTitle: true,
@@ -50,10 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
+            Icon(Icons.shop, size: 350),
             Icon(Icons.smoking_rooms, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.shopping_bag, size: 350),
+            Icon(Icons.add_box, size: 350),
           ],
         ),
       ),
